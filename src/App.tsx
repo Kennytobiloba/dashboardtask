@@ -1,9 +1,10 @@
 import { Routes, Route, Outlet, useLocation } from 'react-router-dom'
 import { FaRegUserCircle } from 'react-icons/fa'
+import Settings from './componets/dashbordOutlet/settings'
+import Class from './componets/dashbordOutlet/Class'
 import Sidebar from './componets/Sidebar'
 
-import Settings from './componets/dashbordOutlet/settings'
-import Class from './componets/dashbordOutlet/class'
+
 
 const routeTitles: Record<string, string> = {
   '/': 'Settings',
